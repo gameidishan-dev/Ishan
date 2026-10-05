@@ -1,0 +1,11 @@
+﻿cmd game
+
+cmd game downscale 0.7 com.dts.freefireth
+
+device_config put game_overlay com.dts.freefireth
+mode=2,downscaleFactor=0.6,fps=60:mode=2,downscaleFactor=0.6,fps=50
+
+wm size 2000x2300
+
+wm size reset
+
